@@ -1,0 +1,28 @@
+{
+  "name": "barnebys/now-env",
+  "description": "Use 'now.json' environment variables while developing",
+  "type": "library",
+  "keywords": [
+    "barnebys",
+    "auctions",
+    "now"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Johan Dahl",
+      "email": "johan.dahl@barnebys.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^5.7"
+  },
+  "autoload": {
+    "files": ["src/now-env.php"]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Barnebys\\Tests\\": "tests/src"
+    }
+  }
+}
